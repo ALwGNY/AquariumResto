@@ -1,0 +1,6 @@
+@use "../components/mixin";
+
+.c-gold-button {
+    @include mixin.button-aspect;
+    border: none;
+}
